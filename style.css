@@ -28,3 +28,62 @@ header .logo{
 header .logo img{
     max-width: 100%;
 }
+
+nav ul{
+    display: flex
+}
+
+nav ul li{
+    list-style: none;
+    flex-grow: 2;
+    background-color: aqua;
+    margin: 5px;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+}
+
+/* Wrapper */
+
+.wrapper{
+    display: flex;
+}
+
+.wrapper main{
+    flex-grow: 2;
+    background-color: aquamarine;
+}
+
+.wrapper aside{
+    flex-grow: 1;
+    background-color: blue;
+}
+
+/* Main */ 
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main article{
+    flex: 1 0 40%;
+    background-color: rgb(150, 150, 150);
+    margin: 10px;
+    padding: 10px;
+}
+
+main article img{
+    height: 100px;
+    display: block;
+}
+
+footer{
+    background-color: blueviolet;
+    
+}
